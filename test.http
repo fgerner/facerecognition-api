@@ -1,0 +1,14 @@
+
+POST http://localhost:3000/signin
+Content-Type: application/json
+
+{
+  "email": "b@mail.com",
+  "password": "huhuhu"
+}
+
+###
+GET http://localhost:3000/
+Accept: application/json
+
+###
